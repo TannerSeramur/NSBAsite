@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ /* button and search container */
+.button{
+  padding: 5px 10px;
+  width: 100%;
+  /* background: green; */
+  color: white;
+  font-family:'Open Sans';
+  font-size: 10px;
+}
+
+.blue {
+  background: #00a8e5;
+}
+
+.green {
+  background: #8dc63f;
+}
+
+header{
+  /* padding: 10PX; */
+  /* background-color: red; */
+}
+
+.header-search {
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+img {
+  width: 250px;
+  height: auto;
+  padding: 0;
+  /* background: blue; */
+  padding-left: 20px;
+}
+
+.search-login-container {
+  /* background: green; */
+  width: 200px;
+  /* background: teal; */
+  padding-right: 30px;
+}
+
+ .login{
+   /* background-color: yellow; */
+   display: flex;
+   margin-bottom: 10px;
+
+ }
+
+ .login .button:first-child {
+   margin-right: 10px;
+ }
+
+.searchbar {
+  display: flex;
+}
+ .searchbar input {
+   width: 100%;
+   padding: 5px;
+ }
+/* nav bar */
+
+ nav{
+   background-color: #21597A;
+   /* padding: 10px 5px; */
+   text-align: center;
+
+ }
+ li{
+   display: inline;
+   padding: 11px 5px;
+   /* background-color: teal; */
+   /* border-bottom: 12px solid green; */
+ }
+
+ li.active {
+   border-bottom: 12px solid #00a8e5;
+ }
+ a {
+   text-decoration: none;
+   font-family: 'Open sans';
+   margin: 25px;
+   color: white;
+   opacity: .75;
+   cursor: pointer;
+ }
+ ul{
+   /* background-color: red; */
+   /* margin-left: 120px; */
+   /* display: center; */
+   /* margin: 0 auto; */
+   /* background-color: red; */
+   /* width: 1000px; */
+   padding: 10px 0;
+   /* display: inline-block; */
+   border-bottom: 12px solid #0072bc;
+   width: 100vw;
+ }
+ .undernav{
+   padding: 10px;
+   background-color: red;
+ }
+
+ /* .carousel img {
+   width: 100vw;
+ } */
