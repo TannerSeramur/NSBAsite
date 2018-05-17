@@ -64,11 +64,25 @@ img {
 
 .searchbar {
   display: flex;
+
 }
  .searchbar input {
-   width: 100%;
-   padding: 5px;
+  width: 100%;
+  padding: 5px;
+  /* background-color: red; */
+  float: left;
+  width: 100%;
+  border: 1px solid #0072bc;
+  padding: 10px;
+  height: 25px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
  }
+
+
+
+
 /* nav bar */
 
  nav{
@@ -240,6 +254,7 @@ button.sec2-button{
 
 footer{
   background-color: #21597A;
+
 }
 
 
