@@ -14,6 +14,7 @@ body{
   color: white;
   font-family:'Open Sans';
   font-size: 10px;
+  border: none;
 }
 
 .blue {
@@ -111,13 +112,7 @@ img {
 
  }
 
- /* .undernav{
-   padding: 10px;
-   background-color: red;
- } */
- /* .container{
-   background-color: red;
- } */
+ /* slideshow */
 .item{
   /* background-color: green; */
   width: 100vw;
@@ -127,7 +122,7 @@ img {
 
 }
 .carousel{
-  background-color: pink;
+  /* background-color: pink; */
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -146,15 +141,68 @@ img{
 
 }
 
+a.left.carousel-control{
+  /* background-color: red; */
+  margin: 0;
+  height: 500px;
+}
+a.right.carousel-control{
+  /* background-color: red; */
+  margin: 0;
+  height: 500px;
+}
+
+
+
 /* main{
   background-color: red;
   padding: 0;
   margin: 0;
 } */
 
-/* footer{
+/* section 1 */
+.section1{
+  background-color: #f1f1f1;
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  padding-bottom: 150px;
+}
+main h1{
+  /* background-color: green; */
+  font-size: 3em;
+}
+main p{
+  /* background-color: brown; */
+  padding: 30px;
+  margin: 0px 150px;
+  font-size: 1.5em;
+
+}
+button.sec1-button{
+  background-color: #8dc63f;
+  padding: 20px 50px;
+  /* width: 100%; */
+  /* background: green; */
+  color: white;
+  font-family:'Open Sans';
+  font-size: 10px;
+  border: none;
+  font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+footer{
   background-color: #21597A;
-} */
+}
+
 
 
 
