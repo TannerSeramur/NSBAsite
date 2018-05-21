@@ -318,7 +318,7 @@ h4{
 
 /* events */
 .event-container{
-  background-color: red;
+  /* background-color: red; */
   width: 100%;
   display: flex;
   /* display: flex;
@@ -327,7 +327,7 @@ h4{
 
 }
 .events{
-background-color: green;
+/* background-color: green; */
 
 }
 .calender{
@@ -340,16 +340,29 @@ background-color: green;
 
 .calender h7{
   /* background-color: red; */
-  font-size: 72px;
-  text-align: justify;
+  font-size: 82px;
+  /* text-align: justify; */
+  display:block;
+  text-align: center;
+  /* padding:0;
+  margin: 0; */
+  padding-top: 40px;
+  padding-bottom: 0;
 
 }
 
 .calender p{
   font-size: 36px;
   /* display: block; */
+  /* text-align: center; */
+  /* background-color: green; */
+  display:block;
   text-align: center;
-  background-color: green;
+  padding:0;
+  margin: 0;
+}
+.events h8{
+  font-size: 24px;
 }
 
 
