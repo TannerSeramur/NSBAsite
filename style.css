@@ -110,7 +110,7 @@ img {
    opacity: .75;
    cursor: pointer;
  }
- ul{
+ nav ul{
    /* background-color: red; */
    /* margin-left: 120px; */
    /* display: center; */
@@ -262,6 +262,95 @@ main h3 {
     text-align: center;
 }
 
+/* membership */
+.membership-container{
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.membership{
+  border-radius: 20px;
+  background-color: #00a8e5;
+  height: 500px;
+  width: 400px;
+
+}
+h4{
+  font-size: 36px;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 20px;
+  /* background-color: #39b54a; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+
+}
+
+.price{
+  font-size: 48px;
+  text-align: center;
+  padding-bottom: 20px;
+  /* padding-top: 20px; */
+  /* background-color: #0072bc; */
+
+}
+
+.features{
+  list-style-type: none;
+  text-align: center;
+  font-size: 24px;
+}
+.select{
+  align-items: center;
+  background-color: #ffa500;
+  padding: 15px 20px;
+  width: 60%;
+  font-family:'Open Sans';
+  font-size: 15px;
+  border: none;
+  margin:auto;
+  display:block;
+}
+
+/* events */
+.event-container{
+  background-color: red;
+  width: 100%;
+  display: flex;
+  /* display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; */
+
+}
+.events{
+background-color: green;
+
+}
+.calender{
+  height: 250px;
+  width: 250px;
+  background-color: pink;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+.calender h7{
+  /* background-color: red; */
+  font-size: 72px;
+  text-align: justify;
+
+}
+
+.calender p{
+  font-size: 36px;
+  /* display: block; */
+  text-align: center;
+  background-color: green;
+}
 
 
 
