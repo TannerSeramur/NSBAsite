@@ -246,6 +246,21 @@ button.sec2-button{
   padding: 50px;
   padding-bottom: 80px;
 }
+/* about page */
+.about {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+main h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+main h3 {
+    text-align: center;
+}
 
 
 
