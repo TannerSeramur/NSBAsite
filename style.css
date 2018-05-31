@@ -89,7 +89,6 @@ img {
    background-color: #21597A;
    /* width: 10px; */
    text-align: center;
-
  }
  nav li{
    display: inline;
@@ -166,7 +165,15 @@ a.right.carousel-control{
   height: 500px;
 }
 
+.faq {
+    text-align: center;
+}
 
+.afaq {
+    color: black;
+    text-align: center;
+    background-color: #BEE8EE;
+}
 
 /* main{
   background-color: red;
@@ -186,6 +193,8 @@ a.right.carousel-control{
 main h1{
   /* background-color: green; */
   font-size: 3em;
+  padding: 0;
+  margin: 0;
 }
 main p{
   /* background-color: brown; */
@@ -267,7 +276,7 @@ main h3 {
   /* background-color: red; */
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 40px;
 }
 
@@ -321,33 +330,62 @@ h4{
   /* background-color: red; */
   width: 100%;
   display: flex;
-  /* display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap; */
+  /* justify-content: center; */
+  flex-wrap: wrap;
+
 
 }
-.events{
-/* background-color: green; */
+.event{
+  /* background-color: green; */
+  margin: 40px;
 
 }
+
+.event h8{
+  font-size: 18px;
+  /* background-color: red; */
+  color:#f2f2f2;
+}
+
 .calender{
-  height: 250px;
-  width: 250px;
-  background-color: pink;
+  height: 200px;
+  width: 200px;
+  background-color: #f1f1f1;
+  opacity: .75;
   border-radius: 25px;
-  margin: 20px;
+  /* margin: 0px; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* align-items: flex-start; */
+  /* justify-content: space-between; */
+  justify-content: center;
+  padding: 20px;
 }
+
+.event button {
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+/* .calender .dots-container {
+  background: red;
+  width: 100%;
+  height: 40px;
+} */
 
 .calender h7{
   /* background-color: red; */
   font-size: 82px;
   /* text-align: justify; */
-  display:block;
-  text-align: center;
+  /* display:block; */
+  /* text-align: center; */
   /* padding:0;
   margin: 0; */
-  padding-top: 40px;
-  padding-bottom: 0;
+  /* padding-top: 40px; */
+  /* padding-bottom: 0; */
 
 }
 
@@ -356,23 +394,145 @@ h4{
   /* display: block; */
   /* text-align: center; */
   /* background-color: green; */
-  display:block;
-  text-align: center;
+  /* display:block; */
+  /* text-align: center; */
   padding:0;
   margin: 0;
 }
-.events h8{
-  font-size: 24px;
+
+ .events {
+   background: url("images/eventbg.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+	 /* opacity: 50%; */
+ }
+ .events-overlay {
+   width: 100%;
+   height: 100%;
+   background: rgba(0,0,0,0.5);
+   padding: 30px;
+
+ }
+
+
+.events h1{
+  /* color: #f1f1f1; */
+  text-align: center;
+  /* background-color: green; */
+  padding: 20px;
+
 }
 
 
 
+
+
+
+input[type=text],input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    margin-bottom: 11px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.containers {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+img.zoomin {
+    width: 400px;
+    height: 325px;
+    display: inline-block;
+    margin-top: 0;
+    display: table;
+    /* transition: all 4s ease; */
+}
+
+td.zoom {
+    transition: transform .8s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.10);
+}
+
+.enlarge {
+    font-size:
+}
+
+td.zoom>img {
+    margin-left: 40px;
+}
+
+.enlarge {
+    text-align: center;
+    font-size: 24px;
+}
 
 
 footer{
   background-color: #21597A;
 
 }
+
+.popup-container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 00;
+  left: 0;
+  background-color: rgba(0,0,0,.75);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  /* display: none; */
+
+
+}
+
+.popup{
+  background-color: #f2f2f2;
+  max-width: 600px;
+  padding: 30px;
+  min-width: 450px;
+  z-index: 100;
+
+
+
+}
+
+.popup input[type = submit]{
+  margin-top: 15px;
+}
+
+.isvisable{
+
+  visibility:visible !important;
+  /* display: block; */
+}
+
 
 
 
