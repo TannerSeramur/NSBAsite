@@ -270,11 +270,12 @@ main h2 {
 
 main h3 {
     text-align: center;
+
 }
 
 /* membership */
 .membership-container{
-  /* background-color: red; */
+  background-color: #f1f1f1;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -283,24 +284,49 @@ main h3 {
 
 .membership{
   border-radius: 20px;
-  background-color: #00a8e5;
+  background-color: #f2f4f5;
   height: 500px;
   width: 400px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9dbdc;
 
 }
+.membership-text{
+background-color: #f1f1f1;
+text-align: center;
+padding: 20px;
+}
+.features{
+  background-color: white;
+  padding-top: 30px;
+  margin-top: 20px;
+  border-top: 2px solid #d9dbdc;
+  height: 260px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 24px;
+}
+
 h4{
   font-size: 36px;
   text-align: center;
   padding: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   /* background-color: #39b54a; */
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  /* border-bottom: 2px solid #d9dbdc; */
+  /* text-decoration: underline; */
+
 
 
 }
 
 .price{
+  /* background-color: red; */
   font-size: 48px;
   text-align: center;
   padding-bottom: 20px;
@@ -309,11 +335,7 @@ h4{
 
 }
 
-.features{
-  list-style-type: none;
-  text-align: center;
-  font-size: 24px;
-}
+
 .select{
   align-items: center;
   background-color: #ffa500;
