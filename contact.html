@@ -22,9 +22,8 @@
 
       <div class="search-login-container">
         <div class="login">
-          <button class='button blue' onClick="parent.location='./join.html'"> Join</button>
-          <button class='button green' onClick="parent.location='./login.html'">Login</button>
-
+        <button class='button blue' onclick="myFunc('join')"> Join</button>
+        <button class='button green' onclick="myFunc('login')"> Login</button>
         </div>
         <div class="searchbar">
           <input type="text" name="searchbar" placeholder="search here">
@@ -69,9 +68,69 @@
 </div>
   </main>
 
+  <div class="popup-container" id= "join-popup" onclick="closePop()">
+    <div class="popup">
+      <form>
+        <h1>Sign up</h1> First name:<br>
+        <input type="text" name="firstname"><br> Last name:<br>
+        <input type="text" name="lastname"> <br> Email:
+        <br>
+        <input type="text" name="email"><br> password:
+        <br>
+        <input type="password" name="password"><br> confirm password: <br>
+        <input type="password" name= "confirmpassword"><br>
+
+        <input type="radio" name="plan1" value="plan1"> Plan 1 <br>
+        <input type="radio" name="plan2" value="plan2"> Plan 2<br>
+        <input type="radio" name="plan3" value="plan3"> Plan 3<br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+
+  <div class="popup-container" id= "login-popup" onclick="closePop()">
+    <div class="popup">
+      <form>
+          <h1>Login</h1>
+          Email:<br>
+          <input type="text" name="email"><br>
+          Password:<br>
+          <input type="password" name="password"> <br>
+          <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+
   <footer>
     Copyrights &copy;Nimbus
   </footer>
+
+  <script>
+    console.log('getting here');
+    var join = document.getElementById("join-popup");
+    var login = document.getElementById("login-popup")
+
+
+    var myFunc = function(type){
+      console.log(type);
+      if(type === "login" ){
+        console.log('hello');
+      login.classList.add("isvisable");
+    }else if (type === "join") {
+      join.classList.add("isvisable");
+
+    }
+  }
+
+    var closePop = function(){
+
+       if(event.currentTarget === event.target){
+         join.classList.remove("isvisable")
+         login.classList.remove("isvisable")
+       }
+
+    }
+  </script>
 </body>
 
 </html>
