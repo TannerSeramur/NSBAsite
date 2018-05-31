@@ -512,11 +512,28 @@ td.zoom>img {
     font-size: 24px;
 }
 
-
+/* footer */
 footer{
   background-color: #21597A;
-
 }
+
+footer ul{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+footer p{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* popup */
 
 .popup-container{
   position: absolute;
