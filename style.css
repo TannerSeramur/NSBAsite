@@ -447,7 +447,47 @@ h4{
 
 }
 
+/* news */
+.card-container{
+  margin: 30px;
+  /* background-color: red; */
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	/* align-content: space-around; */
+}
+.card{
+  /* background-color: red; */
+  margin-bottom: 30px;
 
+}
+.card-text{
+  flex-wrap: nowrap;
+  padding: 10px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.card-img-top{
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+.card-title{
+  /* background-color: red; */
+  padding: 2px;
+}
+.btn-primary{
+
+  display: block;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-bottom: 30px;
+}
 
 
 
