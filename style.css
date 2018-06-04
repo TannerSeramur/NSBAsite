@@ -427,7 +427,7 @@ h4{
    background: url("images/eventbg.jpg");
    background-repeat: no-repeat;
    background-size: cover;
-   height: 100vh;
+   /* height: 100vh; */
 	 /* opacity: 50%; */
  }
  .events-overlay {
@@ -551,6 +551,8 @@ td.zoom>img {
     text-align: center;
     font-size: 24px;
 }
+
+
 
 /* footer */
 footer{
